@@ -1372,6 +1372,30 @@ Output:
 ==============================================================================================
 
 
+Sum and average of array:
+===============================================================================================
+package arrays;
+
+public class Sumofarray {
+
+	public static void main(String[] args) {
+		int[] array = {2,5,3,9,6}; 
+		int sum = 0; 
+		int avg;
+		for (int i = 0; i < array.length; i++) 
+		{ 
+			sum = sum+array[i]; //1, 3, 6, 10, 15  // another way sum+=array[i]
+			} 
+		System.out.println("Sum of integers in the array: " + sum); 
+		avg=sum/array.length;
+		System.out.println(avg);
+		}
+	    }
+
+
+
+
+
 
 
 
